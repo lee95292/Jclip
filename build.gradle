@@ -13,6 +13,11 @@ configurations {
 		extendsFrom annotationProcessor
 	}
 }
+bootJar{
+	archiveBasename='-'
+	archiveFilename='-.jar'
+	archiveVersion="0.0.0"
+}
 
 repositories {
 	mavenCentral()
