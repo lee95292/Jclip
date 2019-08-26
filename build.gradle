@@ -14,8 +14,8 @@ configurations {
 	}
 }
 bootJar{
-	archiveBasename='-'
-	archiveFilename='-.jar'
+	archiveBaseName='-'
+	archiveFileName='-.jar'
 	archiveVersion="0.0.0"
 }
 
